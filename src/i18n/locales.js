@@ -129,8 +129,8 @@ export default {
       'zh-CN': '网络错误',
     },
     copyrightMessage: {
-      en: 'vasttian',
-      'zh-CN': 'vasttian',
+      en: 'wingkong',
+      'zh-CN': 'wingkong',
     },
     all: {
       en: 'All',

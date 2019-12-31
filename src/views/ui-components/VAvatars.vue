@@ -20,8 +20,8 @@
               </v-avatar>
               <v-avatar>
                 <img
-                  src="http://67.218.155.2:8082/vasttian.png"
-                  alt="Vasttian"
+                  :src="touxiangImg"
+                  alt="wingkong"
                 >
               </v-avatar>
               <v-badge overlap>
@@ -110,7 +110,7 @@
                   color="grey lighten-4"
                 >
                   <img
-                    src="http://67.218.155.2:8082/vasttian.png"
+                    :src="touxiangImg"
                     alt="avatar"
                   >
                 </v-avatar>
@@ -178,14 +178,16 @@
 </template>
 
 <script>
+import touxiangImg from '@/assets/wingkong.jpg';
+
 export default {
   name: 'VAvatars',
   data() {
     return {
       items: [
         {
-          avatar: 'http://67.218.155.2:8082/vasttian.png',
-          name: 'Vasttian',
+          avatar: 'http://67.218.155.2:8082/wingkong.png',
+          name: 'wingkong',
           text: `The \`v-avatar\` component is used to control the size and border radius of responsive images,
             typically used to show profile pictures.`,
         },
@@ -198,6 +200,7 @@ export default {
         },
       ],
       slider: 128,
+      touxiangImg,
       tile: false,
     };
   },

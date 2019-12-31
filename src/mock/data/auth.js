@@ -10,7 +10,7 @@ const users = {
     token: 'mock-token-general',
   },
   admin: {
-    name: 'vasttian',
+    name: 'wingkong',
     email: 'tianyiming26@gmail.com',
     role: 'admin',
     avatar: 'http://67.218.155.2:8082/cloud.jpg',

@@ -176,7 +176,7 @@ export default {
   },
   methods: {
     toGithub() {
-      window.open('https://github.com/vasttian/vue-admin-vuetify');
+      window.open('https://github.com/wingkong/vue-admin-vuetify');
     },
     logout() {
       console.log('logout');
